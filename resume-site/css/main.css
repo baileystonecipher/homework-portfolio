@@ -10,6 +10,10 @@ h1 {
 }
 
 img {
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+
    
 }
 
@@ -24,21 +28,24 @@ h2 {
 h3 {
 	font-family: poiret one;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 div {
     -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
     -moz-columns: 100px 2; /* Firefox */
     columns: 100px 2;
-    margin-top: 150px;
 }
 
 h4 {
 	font-family: poiret one;
 	font-size: 25px;
+	padding-top: 0px;
 }
 
 p {font-family: raleway;
+	padding-top: 30px;
+
 }
 
 pre {
@@ -46,13 +53,11 @@ pre {
 	}
 
 form {
-	align: center;
+	align: margin-right;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: #ff0066;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    font-family: raleway;
+    font-size: 30px;
 }
