@@ -1,27 +1,58 @@
+body {
+	background-color: #F6E8E5;
+	padding: 40px;
+}
+
+
 h1 {
-	font-family:lobster;
+	font-family: Poiret One;
+	font-size: 80px;
 }
 
-ul {
-	font-family:raleway;
-	align: center;
+img {
+   
 }
-
-img 
 
 h2 {
-	font-family:lobster;
+	font-family: poiret one;
 	text-align: center;
+	margin-top: 40px;
 
 }
+
 
 h3 {
-	font-family:raleway;
+	font-family: poiret one;
 	text-align: center;
 }
 
-h4 {font-family:lobster;
+div {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+    margin-top: 150px;
+}
+
+h4 {
+	font-family: poiret one;
+	font-size: 25px;
 }
 
 p {font-family: raleway;
+}
+
+pre {
+	font-size: 20px;
+	}
+
+form {
+	align: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: raleway;
 }
