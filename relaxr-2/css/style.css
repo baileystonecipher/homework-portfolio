@@ -3,8 +3,45 @@
   font-family: 'Open Sans';
 }
 
+#relaxr {
+	float: left;
+	padding: 25px;
+	font-size: 24px;
+	font-weight: 900;
+}
 
+#About {
+	color: #f9e42e;
+	float: right;
+	padding: 25px;
+	font-size: 24px;
+}
 
+#FAQ {
+	color: #f9e42e;
+	float: right;
+	padding: 25px;
+	font-size: 24px;
+}
 
+#Team {
+	color: #f9e42e;
+	float: right;
+	padding: 25px;
+	font-size: 24px;
+}
 
+#ContactUs {
+	color: #f9e42e;
+	float: right;
+	padding: 25px;
+	font-size: 24px;
+}
+
+#Blog {
+	color: #f9e42e;
+	float: right;
+	padding: 25px;
+	font-size: 24px;
+}
 
