@@ -18,38 +18,13 @@
 		font-size: 10px;
 		background-color: black;
 		float: right;
-	}
+		}
 
-		#find-developers {
+		.nav-item {
 			float: right;
 			padding: 10px;
 		}
-
-		#find-designers {
-			float: right;
-			padding: 10px;
-		}
-
-		#our-team {
-			float: right;
-			padding: 10px;
-		}
-
-		#how {
-			float: right;
-			padding: 10px;
-		}
-
-		#our-team {
-			float: right;
-			padding: 10px;
-		}
-
-
-		#blog {
-			float: right;
-			padding: 10px;
-		}
+		
 
 	#tagline {
 		background-color: grey;
@@ -65,6 +40,50 @@
 			text-decoration: underline;
 			text-decoration-color: yellow;
 		}
+
+	#photo-box {
+	 	background-image: url(images/coworking.jpg);
+		
+	}
+
+		#transparent-box {
+			background-color: grey;
+			opacity: 0.8;
+			width: 33%;
+			font-family: 'raleway';
+			border-style: solid;
+			border-color: black;
+			margin: 35px;
+			padding-bottom: 15px;
+			float: right;
+		}
+
+			#transparent-box h1 {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+
+			#transparent-box p {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+
+			#transparent-box h2 {
+				background-color: yellow;
+				text-align: center;
+				width: 75%;
+				padding: 10px;
+				margin: 0 auto;
+			}
+
+
+
+
+
+
+
+
+
 
 
 
