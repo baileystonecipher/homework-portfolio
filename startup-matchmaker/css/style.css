@@ -1,0 +1,74 @@
+#header {
+	background-color: black;
+	height: 175px;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-color: yellow;
+	font-family: 'Raleway';
+}
+
+	#startup {
+		color: yellow;
+		padding: 18px;
+		clear: right;
+	}
+
+	#top-nav {
+		color: white;
+		font-size: 10px;
+		background-color: black;
+		float: right;
+	}
+
+		#find-developers {
+			float: right;
+			padding: 10px;
+		}
+
+		#find-designers {
+			float: right;
+			padding: 10px;
+		}
+
+		#our-team {
+			float: right;
+			padding: 10px;
+		}
+
+		#how {
+			float: right;
+			padding: 10px;
+		}
+
+		#our-team {
+			float: right;
+			padding: 10px;
+		}
+
+
+		#blog {
+			float: right;
+			padding: 10px;
+		}
+
+	#tagline {
+		background-color: grey;
+		padding: 15px;
+		margin: 0;
+		text-align: center;
+		font-family: 'Raleway';
+		font-size: 25px;
+		text-decoration: italic;
+	}
+		
+		#tagline span {
+			text-decoration: underline;
+			text-decoration-color: yellow;
+		}
+
+
+
+		
+
+		
+	
