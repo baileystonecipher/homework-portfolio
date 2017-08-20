@@ -1,3 +1,5 @@
+
+
 #header {
 	background-color: black;
 	height: 175px;
@@ -42,7 +44,8 @@
 		}
 
 	#photo-box {
-	 	background-image: url(images/coworking.jpg);
+		background-image: url(images/coworking.jpg)
+	
 		
 	}
 

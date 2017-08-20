@@ -3,11 +3,10 @@ body {
 }
 
 #header {
-  background: #033048;
-
+  background-color: #033048;
 }
-
 	#relaxr {
+		color: white;
 		float: left;
 		padding-top: 25px;
 		padding-bottom: 25px;
@@ -53,56 +52,103 @@ body {
 	}
 
 
-#content {
-	float: left;
-	width: 700px;
+________________________
+
+#grey-box {
 	font-family: 'Open Sans';
 	background-color: #f0efef;
 }
+
+	#content {
+		float: left;
+		width: 700px;
+	}
 	
-	#content h1 {
-		color: #033048;
-		font-size: 40px;
-		font-weight: 400;
-		padding-top: 25px;
-		padding-left: 40px;
-		padding-bottom: 10px;
-	}
+		#content h1 {
+			font-size: 40px;
+			font-weight: 400;
+			padding-top: 25px;
+			padding-left: 40px;
+			padding-bottom: 10px;
+		}
 
-	#content p {
-		font-size: 24px;
-		font-weight: 200;
-		padding-left: 40px;
-		padding-bottom: 35px;
-	}
+		#content p {
+			font-size: 24px;
+			font-weight: 200;
+			padding-left: 40px;
+			padding-bottom: 35px;
+		}
 
-	#content img {
-		padding-left: 40px;
-		padding-bottom: 10px;
-	}
+		#content img {
+			padding-left: 40px;
+			padding-bottom: 10px;
+		}
 
-	#content h2 {
-		padding-left: 40px;
+		#content h2 {
+			padding-left: 40px;
+			float: right;
+			padding-bottom: 35px;
+		}
+
+	#sidebar {
 		float: right;
-		padding-bottom: 35px;
+		width: 240px;
+		font-family: 'Open Sans';
+		color: #033048;
 	}
 
-#sidebar {
-	float: right;
-	width: 240px;
-	font-family: 'Open Sans';
-	background-color: #f0efef;
-	color: #033048;
+		#categories h1 {
+			font-size: 32px;
+			font-weight: bolder;
+			padding-bottom: 8px;
+		}
+
+		#categories ul {
+			padding: 15px;
+			margin-bottom: 20px;
+		}
+
+		#AboutRelaxr {
+			padding-bottom: 15px;
+		}
+
+		#AboutRelaxr h1 {
+			font-size: 32px;
+			font-weight: bolder;
+			padding-bottom: 8px;
+		}
+
+		#AboutRelaxr h2 {
+			font-weight: bold; 
+			padding-top: 5px;
+		}
+
+		#AdUnit {
+			background-color: white;
+			padding: 10px;
+			padding-bottom: 500px;
+			text-align: center;
+			font-size: 32px;
+			border-style: solid;
+			border-width: 5px;
+		}
+
+
+____________________________
+
+#yellow-bar {
+	background-color: #f9e42e;
+	}
+
+	#signup {
+		background-color: #033048;
+		font-color: white;
+		margin: 0 auto;
+
+	}
+	
+	
+
 }
-
-#categories h1 {
-	font-size: 32px;
-	font-weight: bolder;
-	padding-bottom: 12px;
-}
-
-
-
-
 
 
