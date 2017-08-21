@@ -1,9 +1,13 @@
+
+
 body {
 	font-family: 'Open Sans';
 }
 
-#header {
+#header1 {
   background-color: #033048;
+  clear: both;
+  display: inline-block;
 }
 	#relaxr {
 		color: white;
@@ -135,20 +139,35 @@ ________________________
 
 
 ____________________________
-
-#yellow-bar {
+#signup {
 	background-color: #f9e42e;
-	}
-
-	#signup {
-		background-color: #033048;
-		font-color: white;
-		margin: 0 auto;
-
-	}
-	
-	
-
 }
 
+#signup h1 {
+	background-color: #033048;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
 
+___________________________
+
+#greyfooter{
+	background-color: #606161;
+}
+
+#greyfooter h1 {
+	background-color: #606161;
+	color: #f9e42e;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+#social-icons {
+	margin: 0 auto;
+	background-color: #606161;
+}
+
+#greyfooter p {
+	background-color: #606161;
+}
