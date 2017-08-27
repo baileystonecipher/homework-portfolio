@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
 $("#paragraph1").hide(); 
@@ -19,9 +21,17 @@ function hideparagraph() {
 
 
 
+$(".hide").hide();
+$(".learnmore").click(showmore);
+
+function showmore() {
+	$(".hide").show();
+	$(".learnmore").hide();
+}
 
 
 
 
+event.preventDefault() 
 
 });
