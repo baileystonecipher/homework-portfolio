@@ -7,13 +7,15 @@ $(".readless").hide();
 $(".readmore").click(showparagraph);
 $(".readless").click(hideparagraph);
 
-function showparagraph() {
+function showparagraph(event) {
+	event.preventDefault();
 	$("#paragraph1").show();
 	$(".readmore").hide();
 	$(".readless").show();
 } 
 
-function hideparagraph() {
+function hideparagraph(event) {
+	event.preventDefault();
 	$("#paragraph1").hide();
 	$(".readmore").show();
 	$(".readless").hide();
@@ -24,7 +26,8 @@ function hideparagraph() {
 $(".hide").hide();
 $(".learnmore").click(showmore);
 
-function showmore() {
+function showmore(event) {
+	event.preventDefault();
 	$(".hide").show();
 	$(".learnmore").hide();
 }
